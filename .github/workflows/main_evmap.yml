@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'evmap'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A54A2B316F2745579E8D7C62F7D79D55 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4DEAB2BBC3294885B1AE811DFAF1EC0B }}
           package: '*.jar'
