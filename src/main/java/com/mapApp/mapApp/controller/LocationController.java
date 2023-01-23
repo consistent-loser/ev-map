@@ -18,7 +18,7 @@ public class LocationController {
 
     @GetMapping("/health-check")
     public String healthCheck(){
-        return "success";
+        return "Health check success";
     }
 
     @PostMapping("/saveGeoData")
